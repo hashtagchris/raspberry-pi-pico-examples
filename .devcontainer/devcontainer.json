@@ -1,4 +1,5 @@
 {
 	"name": "raspberry-pi-pico-sdk",
+	// container image details: https://github.com/lukstep/raspberry-pi-pico-docker-sdk
 	"image": "lukstep/raspberry-pi-pico-sdk"
 }

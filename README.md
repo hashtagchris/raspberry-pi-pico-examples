@@ -23,7 +23,6 @@ $ find . -name *.uf2
 * https://github.com/lukstep/raspberry-pi-pico-docker-sdk
 * https://hub.docker.com/r/lukstep/raspberry-pi-pico-sdk
 * https://blog.sellorm.com/2021/01/29/using-the-pico-and-python-with-a-mac/
-* https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
 
 ## Getting started
 
