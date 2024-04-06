@@ -12,11 +12,11 @@ $ cd build
 $ cmake ..
 $ cd blink # or another example
 $ make # or make -j8 to use more cores
-$ find . -name *.uf2
+$ find . -name '*.uf2'
 ```
-3. Find the `.uf2` file in VS Code's Explorer View, right-click and select `Download...` to download the binary to your local filesystem.
+3. Find the `.uf2` file you built in VS Code's Explorer View, right-click and select `Download...` to download the binary to your local filesystem.
 4. Use the pico's `BOOTSEL` button to mount the pico as a usb storage device, and copy over the `.uf2`.
-5. Use `minicom -o -D /dev/usbmodem0000000000001` or similar to monitor `printf`s.
+5. Use `minicom -b 115200 -o -D /dev/cu.usbmodem14201` or similar to monitor `printf`s.
 
 ### Resources
 
